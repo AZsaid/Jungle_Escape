@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+p{
+  text-align: center;
+  font-size : 15px;
+}
+
+button
+{
+  
+  font-size : 10px;
+  padding : 10px;
+  border-radius : 0.25em;
+  margin : 20px;
+  background: #9ee022;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-transform-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property:box-shadow,transform;
+  transition-property:box-shadow,transform;
+  color:#008000;
+}
+  
+#button1css{
+  text-align: right;
+  
+}
+  
+#button2css{
+  text-align: left;
+  
+}
+  
+#button3css{
+  text-align: right;
+  
+}
+
+@keyframes fade-in {
+  from  { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+#story {
+  animation: fade-in 5s;
+  background-color: black;
+}
+
